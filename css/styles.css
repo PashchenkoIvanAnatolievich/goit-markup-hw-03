@@ -104,7 +104,6 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-brand-color);
-  margin-right: 76px;
 }
 
 .logo-studio-header {
@@ -114,6 +113,7 @@ a {
 .nav-list {
   display: flex;
   gap: 40px;
+  margin-left: 76px;
 }
 
 .nav-link {
@@ -170,6 +170,9 @@ a {
 }
 
 .hero-button {
+  display: block;
+  min-width: 169px;
+  margin: 0 auto;
   font-family: 'Roboto', sans-serif;
   background-color: var(--primary-brand-color);
   color: var(--white-color);
@@ -291,6 +294,11 @@ a {
   padding: 100px 0;
 }
 
+.page-footer .logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
 .logo-studio-footer {
   color: var(--light-color);
 }
@@ -301,5 +309,4 @@ a {
   letter-spacing: 0.02em;
   color: var(--light-color);
   max-width: 264px;
-  margin-top: 16px;
 }
